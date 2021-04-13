@@ -13,4 +13,6 @@
     {{ $post->content ?? old('conctent') }}
 </textarea>
 <br>
+<input type="file" name="image" id="image">
+<br>
 <button type="submit">Enviar</button>
